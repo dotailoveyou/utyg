@@ -1,10 +1,6 @@
-
-def check_psw(arg):
-    psw = "qwerty"
-    if arg == psw:
-        print("true")
-    else:
-      print("false")
+def qwerty(arg):
+    return (arg-32) * 5/9
 
 
-check_psw(input())
+
+print(qwerty(int(input())))
